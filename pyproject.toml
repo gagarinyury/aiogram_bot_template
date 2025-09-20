@@ -1,8 +1,8 @@
 [project]
 name = "aiogram_bot_template"
-version = "1.0"
+version = "1.1.0"
 description = "Aiogram 3.x bot template using PostgreSQL (asyncpg) with SQLAlchemy + alembic"
-authors = ["wakaree <nullmatawasoradesu@gmail.com>"]
+authors = [{name = "wakaree", email = "nullmatawasoradesu@gmail.com"}]
 readme = "README.md"
 license = "MIT"
 requires-python = ">=3.12,<3.13"
