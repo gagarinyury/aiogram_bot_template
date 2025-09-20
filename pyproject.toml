@@ -27,6 +27,10 @@ dependencies = [
 [project.urls]
 Repository = "https://github.com/wakaree/aiogram_bot_template.git"
 
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["app*"]
+
 [tool.uv]
 dev-dependencies = [
     "ftl-extract>=0.8.0",
