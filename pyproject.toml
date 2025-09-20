@@ -29,7 +29,7 @@ Repository = "https://github.com/wakaree/aiogram_bot_template.git"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["app*"]
+include = ["aiogram_bot_template*"]
 
 [tool.uv]
 dev-dependencies = [
